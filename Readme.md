@@ -1,8 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Глеб Скориков](https://up.htmlacademy.ru/htmlcss-individual/2/user/2051853).
-* Наставник: `Неизвестно`.
-
+* Наставник: [Сергей Новиков](https://htmlacademy.ru/profile/zombobombo).
+* Сайт: [Мой сайт](https://gle08b.github.io/2051853-sedona-2/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
