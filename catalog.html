@@ -17,7 +17,7 @@
             <a class="navigation-link" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link-current" href="#">Гостиницы</a>
+            <a class="navigation-link" href="#">Гостиницы</a>
           </li>
         </ul>
         <ul class="naviagtion-list navigation-user">
@@ -61,8 +61,7 @@
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="checkbox" name="parking" checked>
-                  Парковка
+                  <input class="control-input" type="checkbox" name="parking" checked>Парковка
                 </label>
               </li>
               <li class="catalog-filter-item">
@@ -145,7 +144,7 @@
           </a>
           <p class="hotel-card-type">Гостиница</p>
           <p class="hotel-card-price">От 4000₽ </p>
-          <a class="hotel-more-link" href="#">Подробнее</a>
+          <button type="button" class="hotel-more-button">Подробнее</button>
           <button type="button" class="hotel-favourites-button">В Избранное</button>
           <img src="#" alt="4 звезды">
           <p class="hotel-rank">Рейтинг: 8,5</p>
@@ -157,7 +156,7 @@
           </a>
           <p class="hotel-card-type">Гостиница</p>
           <p class="hotel-card-price">От 5000₽ </p>
-          <a class="hotel-more-link">Подробнее</a>
+          <button type="button" class="hotel-more-button">Подробнее</button>
           <button type="button" class="hotel-favourites-button-current">В Избранном</button>
           <img src="#" alt="4 звезды">
           <p class="hotel-rank">Рейтинг: 9,2</p>
@@ -169,7 +168,7 @@
           </a>
           <p class="hotel-card-type">Гостиница</p>
           <p class="hotel-card-price">От 2500₽ </p>
-          <a class="hotel-more-link">Подробнее</a>
+          <button type="button" class="hotel-more-button">Подробнее</button>
           <button type="button" class="hotel-favourites-button">В Избранное</button>
           <img src="#" alt="3 звезды">
           <p class="hotel-rank">Рейтинг: 6,9</p>
@@ -181,38 +180,38 @@
           </a>
           <p class="hotel-card-type">Гостиница</p>
           <p class="hotel-card-price">От 1500₽ </p>
-          <a class="hotel-more-link">Подробнее</a>
+          <button type="button" class="hotel-more-button">Подробнее</button>
           <button type="button" class="hotel-favourites-button">В Избранное</button>
           <img src="#" alt="2 звезды">
           <p class="hotel-rank">Рейтинг 8,5</p>
         </div>
         <ul class="pagination">
           <li class="pagination-item">
-            <a class="pagination-link pagination-current">1</a>
+            <button type="button" class="pagination-button-current">1</button>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">2</a>
+             <button type="button" class="pagination-button">2</button>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">3</a>
+             <button type="button" class="pagination-button">3</button>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">4</a>
+             <button type="button" class="pagination-button">4</button>
           </li>
           <li class="pagination-item">
             <span class="pagination-ellipsis">...</span>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">10</a>
+             <button type="button" class="pagination-button">10</button>
           </li>
         </ul>
       </section>
-      <section class="newsletter">
-        <h2 class="newsletter">Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <section class="newsletter-catalog">
+        <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
+        <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-          <button class="button newsletter-button" type="submit">
+          <button class="newsletter-button" type="submit">
             <span class="newsletter-subscribe">Подписаться</span>
           </button>
         </form>
@@ -239,7 +238,6 @@
       <a class="contacts-tel" href="tel:+78128121212">+7 (812) 812-12-12</a>
       <a class="htmlacademy-link" href="https://htmlacademy.ru/intensive/htmlcss">
         <img src="images/logo-htmlacademy.svg" width="115" height="33" alt="Ссылка на курс HTML Academy">
-        <span class="visually-hidden">Открывает страницу курса HTML Academy "Профессиональная вёрстка сайтов"</span>
       </a>
     </footer>
   </body>
